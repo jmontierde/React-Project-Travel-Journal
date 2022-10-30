@@ -1,10 +1,10 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+import { FaGlobe } from 'react-icons/fa';
 // import {FaGlobeAsia} from 'react-icons/fa';
 function Navbar() { 
     return(
         <div className='nav'>   
-            <FaBeer />
+            <FaGlobe /> <span className='nav--span'>myTravelJournal</span>
         </div>
     )
 }

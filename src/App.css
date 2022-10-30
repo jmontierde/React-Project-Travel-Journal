@@ -5,5 +5,111 @@
   font-family: sans-serif;
 }
 .nav { 
-  background-color: orangered;
+  background-color: rgb(194, 16, 13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin: 5px;
+
+}
+.nav--span { 
+  margin-left: .5rem;
+}
+
+.container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.details { 
+  margin-left: 1.5rem;
+  display: flex;
+  align-items:baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+.sub-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.title { 
+  font-size: 1.5rem;
+  margin: .5rem 0 1rem 0;
+}
+.details .schedule{ 
+  font-weight: 700;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+.details p { 
+  font-size: .8rem;
+
+}
+
+.img-location { 
+  width: 200px;
+  min-height: 250px;
+  border-radius: 5px;
+}
+h5 {
+  color: rgb(44, 44, 44);
+
+}
+a { 
+  color: rgb(114, 114, 114);
+  margin-left: .5rem;
+}
+
+
+/* Meme  Generator Design */
+.navbar { 
+  background-color: rgb(165, 10, 165);
+}
+.navbar .meme-items { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.item-list { 
+  padding: 2rem;
+  color: #fff;
+}
+
+.form-container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+input[type=text]{ 
+  
+}
+
+input{
+  margin-top: 1rem;
+  padding: .5rem 1.5rem;
+}
+#input2 { 
+  margin-left: 1rem;
+}
+input[type=button] { 
+  background-color: purple;
+  color: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
+}
+input[type=button]:hover{ 
+  background-color: rgb(184, 3, 184);
+
 }
