@@ -90,11 +90,12 @@ a {
   margin-top: 4rem;
 }
 input[type=text]{ 
-  
+  text-align: center;
+ 
 }
 
 input{
-  margin-top: 1rem;
+  margin: 1rem 0;
   padding: .5rem 1.5rem;
 }
 #input2 { 
@@ -112,4 +113,64 @@ input[type=button] {
 input[type=button]:hover{ 
   background-color: rgb(184, 3, 184);
 
+}
+img { 
+  width: 100%;
+}
+
+/* Add Item With Spread Component */
+.add-container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.btn-add { 
+  border: none;
+  background-color: blue;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* Profile  */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+article { 
+  border: 2px solid #000;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.proflie-img { 
+  width: auto;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  background-color: rgb(85, 85, 192);
+}
+.card--info{ 
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+
+.card--favorite { 
+  width: 40px;
+  height: auto;
+  padding-bottom: 5px;
 }
