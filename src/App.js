@@ -22,6 +22,7 @@ import { useState } from 'react';
 import Navbar from './Components/Meme Generator/Navbar';
 import Form from './Components/Meme Generator/Form';
 import API from './Components/API Call and useEffect/API';
+import Window from './Components/Window Width/Window';
 function App() {
   // const travel = TravelData.map(item => { 
   //   return <Main
@@ -55,10 +56,10 @@ function App() {
 
       {/* <Navbar />
       {travel} */}
-      <div className='memeGenerator'>
+      {/* <div className='memeGenerator'>
         <Navbar />
         <Form/>
-      </div>
+      </div> */}
       {/* <State /> */}
       {/* <Ternary/> */}
       {/* <Add/> */}
@@ -79,6 +80,7 @@ function App() {
       {/* <Signup/> */}
       
       {/* <API/> */}
+      {/* <Window/> */}
     </div>
   );
 } 

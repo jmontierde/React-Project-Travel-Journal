@@ -13,9 +13,15 @@ function Form(props) {
 
   // Fetching the Memes API 
   useEffect(() => { 
-    fetch('https://api.imgflip.com/get_memes')
-    .then(res => res.json())
-    .then(data => setAllMemesImage(data.data.memes))
+    // fetch('https://api.imgflip.com/get_memes')
+    // .then(res => res.json())
+    // .then(data => setAllMemesImage(data.data.memes))
+    async function getMemes(){
+      const res = await fetch('https://api.imgflip.com/get_memes')
+      const data = await res.json()
+      setAllMemesImage(data.data.memes)
+    }
+    getMemes()
   }, [])
 
 
